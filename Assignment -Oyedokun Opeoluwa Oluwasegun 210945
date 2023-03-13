@@ -1,0 +1,23 @@
+x=int(input("X: "));
+y=int(input("Y: "));
+
+def sum(x,y):
+    print("SUM : ", x+y);
+
+def difference(x,y):
+    print("DIFFERENCE: ", x-y);
+    
+def product(x,y):
+    print("PRODUCT: ", x*y);
+    
+def division (x,y):
+    print("RATIO: ", x/y);
+    
+def modulus(x,y):
+    print(“MODULUS: ", x%y);
+    
+sum(x,y);
+difference(x,y);
+product(x,y);
+division(x,y);
+modulus(x,y);
